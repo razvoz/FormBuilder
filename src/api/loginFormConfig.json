@@ -1,0 +1,30 @@
+{
+  "fields":[
+     {
+        "type":"Input",
+        "label":"Имя",
+        "name":"firstName",
+        "params":{
+           "placeholder":"Введите ваше имя"
+        }
+     },
+     {
+        "type":"Input",
+        "label":"Фамилия",
+        "name":"lastName",
+        "params":{
+           "placeholder":"Введите вашу фамилию"
+        }
+     }
+  ],
+  "buttons":{
+     "submit":{
+        "label":"Войти",
+        "class":"button is-link"
+     },
+     "reset":{
+        "label":"Очистить",
+        "class":"button is-link is-light"
+     }
+  }
+}

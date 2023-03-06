@@ -1,0 +1,80 @@
+{
+  "fields":[
+     {
+        "type":"Input",
+        "label":"Имя",
+        "name":"firstName",
+        "params":{
+           "placeholder":"Введите ваше имя"
+        }
+     },
+     {
+        "type":"Input",
+        "label":"Фамилия",
+        "name":"lastName",
+        "params":{
+           "placeholder":"Введите вашу фамилию"
+        }
+     },
+     {
+        "type":"Select",
+        "label":"Страна",
+        "name":"country",
+        "params":{
+           "options":[
+              {
+                 "label":"Россия",
+                 "value":"ru"
+              },
+              {
+                 "label":"Беларусь",
+                 "value":"by"
+              },
+              {
+                 "label":"Украина",
+                 "value":"ua"
+              },
+              {
+                 "label":"Казахстан",
+                 "value":"kz"
+              },
+              {
+                 "label":"Узбекистан",
+                 "value":"uz"
+              }
+           ]
+        }
+     },
+     {
+        "type":"Textarea",
+        "label":"Комментарий",
+        "name":"comment",
+        "params":{
+           "placeholder":"Введите ваш комментарий"
+        }
+     },
+     {
+        "type":"Input",
+        "label":"Промокод",
+        "name":"promo",
+        "params":{
+           "placeholder":"Введите ваш промокод"
+        }
+     },
+     {
+        "type":"Checkbox",
+        "label":"Согласие на обработку данных",
+        "name":"agreement"
+     }
+  ],
+  "buttons":{
+     "submit":{
+        "label":"Отправить",
+        "class":"button is-link"
+     },
+     "reset":{
+        "label":"Очистить",
+        "class":"button is-link is-light"
+     }
+  }
+}
